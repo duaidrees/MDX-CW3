@@ -1,18 +1,18 @@
 {
-  "name": "coursework-1-individual",
-  "version": "0.0.0",
-  "private": true,
+  "name": "coursework-1-indvidual-main",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node setup.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "vue": "^3.2.47",
-    "vue-router": "^4.1.6"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.1.4"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0"
   }
 }
